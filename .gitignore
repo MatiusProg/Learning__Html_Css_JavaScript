@@ -1,2 +1,4 @@
 #Ignorar los .bak
 *.bak
+#ignorar los .entities, porque son solo guias de caracteres especiales
+*.entities
