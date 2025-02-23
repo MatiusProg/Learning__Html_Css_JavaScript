@@ -17,23 +17,60 @@
 		<main>
 			<section>
 				<article>
-					Este es el texto de mi primer articulo
+					<!-- Se hace uso de <p>, además de <em>, <strong> y <i> -->
+					<p>La muerte es una <em>quimera</em>: porque mientras yo existo, no
+					existe la <i>muerte</i>;<br>y cuando existe la <i>muerte</i>,
+					<strong>ya no existo yo</strong>.<br>Epicuro de Samos</p>
 				</article>
 				<article>
-					Este puede ser el texto de mi segundo articulo
+					<!-- Se hace uso de <p> y <br> -->
+					<p>La muerte es una quimera: porque mientras yo existo, no existe la 
+					muerte;<br>y cuando existe la muerte, ya no existo yo.<br>Epicuro de Samos
+					</p>
 				</article>
 				<article>
-					Creo que este es el texto de mi segundo articulo
+					<!-- Uso de pre para un poema -->
+					<pre> 
+						La muerte es una quimera:porque mientras yo existo, no existe la muerte;
+						y cuando existe la muerte, ya no existo yo.
+						Epicuro de Samos
+					</pre>
+				</article>
+				<article>
+					<!-- Se prueba de la etiqueta <header>, además de los elementos <time> 
+					con sus atributos "datatime" y "pubdate"
+					También se usan los elemntos <mark>, <p>, <br> y <cite> -->
+					<header>
+						<h1> Este es el título del articulo </h1>
+						<time datetime="2025-02-23" pubdate>publicado 23-02-2025</time>
+					</header>
+					<p>La muerte es una quimera: porque mientras yo <mark>existo</mark>,
+					no existe la muerte;<br>y cuando existe la muerte, ya no existo
+					yo.<br><cite>Epicuro de Samos</cite></p>
+				</article>
+				<article>
+					<!-- Se implementa el uso del elemento <code> -->
+					<pre>
+						<code>
+					function cambiarColor() {
+						document.body.style.background = "#000FF";
+					}
+					document.addEventListener("click", cambiarColor);
+						</code>
 				</article>
 			</section>
 			<aside>
 				Cita del articulo 1
 				Cita del articulo 2
 				Cita del articulo 3
+				Cita del articulo 4
+				Cita del articulo 5
 			</aside>
 		</main>
 		<footer>
-			&copy; Derechos reservados 2025
+			<!-- Se esta agregando los elementos <address> y <small> -->
+			<address>Santa Cruz, Bolivia</address>
+			<small>&copy; Derechos reservados 2025</small>
 		</footer>
 	</body>
 </html>
